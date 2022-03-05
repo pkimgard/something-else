@@ -197,8 +197,10 @@ sudo pacman -S pulseaudio pavucontrol
 My main applications
 
 ```
-sudo pacman -S firefox flameshot git caprine discord xclip zsh-syntax-highlighting zsh-autosuggestions atom virtualbox virtualbox-host-modules-arch virtualbox-guest-iso smbclient
+sudo pacman -S firefox flameshot git caprine discord xclip zsh-syntax-highlighting zsh-autosuggestions atom virtualbox virtualbox-host-modules-arch virtualbox-guest-iso smbclient wget galculator xreader
 ```
+
+Above packages saved in 'resouces/paclist.txt'. Use with `pacman S - < paclist.txt`.
 
 Reboot to load new kernel modules.
 
