@@ -29,20 +29,11 @@ Mounting several SMB folders. For the stuff that I don't want to have in /etc/fs
 Used this to create my lab and exam reports for OSCP. Stolen from noraj;
 - https://github.com/noraj/OSCP-Exam-Report-Template-Markdown
 
-## Python stuff
+## linux-install
 
-## OS installations
-
-**- Arch installation on laptop.**
-
-*(220223-arch-installation-laptop)*
-
-Reinstallation of arch on my laptop, decided to go with xfce which was new. Has some special stuff like hybrid graphics.
-
-## To do
-
-**- Kali setup for virtualbox**
-
-For when you feel like doing a fresh install/setup.
+Linux installations;
+- Arch/XFCE on my laptop.
+- Arch/XFCE on my desktop.
+- Kali virtualbox setup.
 
 /K
