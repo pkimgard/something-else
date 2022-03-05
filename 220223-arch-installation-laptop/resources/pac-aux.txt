@@ -1,1 +1,0 @@
-firefox flameshot git caprine discord xclip zsh-syntax-highlighting zsh-autosuggestions atom virtualbox virtualbox-host-modules-arch virtualbox-guest-iso smbclient wget galculator xreader bluez bluez-utils pulseaudio-bluetooth
