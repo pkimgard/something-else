@@ -133,8 +133,6 @@ reboot
 Enable Network Manager:
 
 ```
-sudo pacman -S network-manager-applet
-
 systemctl enable NetworkManager
 systemctl start NetworkManager
 ```
@@ -164,7 +162,7 @@ sudo passwd -l root
 ### Desktop environment and Display Manager
 
 ```
-sudo pacman -S xf86-video-intel xorg-server xfce4 xfce4-goodies lightdm lightdm-gtk-greeter
+sudo pacman -S xf86-video-intel xorg-server xfce4 xfce4-goodies lightdm lightdm-gtk-greeter network-manager-applet
 sudo systemctl enable lightdm
 reboot
 ```

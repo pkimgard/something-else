@@ -1,0 +1,1 @@
+base linux linux-firmware base-devel zsh grub efibootmgr os-prober networkmanager man-db man-pages texinfo vi vim terminator ttf-fira-code
