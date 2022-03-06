@@ -1,6 +1,6 @@
 # My kali virtualbox setup
 
-Remember/How-to of my basic setup/new install of kali from a freshly downloaded image. Takes about 30mins if your quick.
+My basic kali setup whenever I have to create it from scratch. Should take less than 30mins with import and upgrading.
 
 - https://www.kali.org/get-kali/#kali-virtual-machines
 
@@ -20,9 +20,11 @@ Update the system.
 sudo apt update; sudo apt upgrade -y
 # This throws an dependency error in the 2022.1 image. Try this:
 sudo apt full-upgrade --auto-remove
+```
 
-reboot
+While it's upgrading, change basic settings:
 
+```
 # Change local timezone
 sudo ln -sf /usr/share/zoneinfo/Europe/Stockholm /etc/localtime
 
@@ -37,7 +39,12 @@ echo "bindkey -v" >> .zshrc
 
 # change password for user
 passwd kali
+```
 
+- Change window mode to scaled(vbox).
+- Change Focus to follow mouse(xfce-window manager).
+
+```
 shutdown now
 ```
 
@@ -57,13 +64,9 @@ sudo apt install $(cat apt-pkg.txt)
 - Use terminator config in resources folder, make dir .config/terminator and copy to `~/.config/terminator/config`.
 - Bind 'Super L + Shift + S' to `flameshot gui`.
 
-Change default terminal to terminator and browser to firefox.
+Change default terminal to terminator and browser to firefox(Settings Manager - Default Applications).
 
-Log in to firefox.
-
-#### Panel
-
-Remove terminals from app launcher, add atom(--no-sandbox if needed).
+Open firefox, remove standard bookmarks, log in.
 
 ### Atom
 
@@ -87,7 +90,6 @@ I write all docs in markdown so I use:
 
 Don't restore on start: Check 'Core - Open Empty Editor On Start' and set 'Core - Restore Previous Windows On Start' to 'no'.
 
-## Tweaks
+Add atom to panel with new launcher, add '--no-sandbox' if not starting.
 
-- Window manager - focus follows mouse.
-- Scaled mode on machine window.
+## Take another snapshot
