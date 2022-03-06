@@ -92,4 +92,9 @@ Don't restore on start: Check 'Core - Open Empty Editor On Start' and set 'Core 
 
 Add atom to panel with new launcher, add '--no-sandbox' if not starting.
 
-## Take another snapshot
+## Post setup
+- Import VPN configurations with NetworkManager, check routes settings.
+
+![](assets/markdown-img-paste-20220306082948264.png)
+
+- Take another snapshot
