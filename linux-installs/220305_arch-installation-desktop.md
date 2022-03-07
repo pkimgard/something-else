@@ -117,6 +117,13 @@ sudo systemctl start NetworkManager
 sudo systemctl enable NetworkManager
 ```
 
+Set som active NTP servers and activate NTP.
+
+```
+timedatectl set-ntp true
+timedatectl status
+sudo hwclock --systohc
+```
 ## Graphics and Sound
 
 ### Display manager and desktop environment

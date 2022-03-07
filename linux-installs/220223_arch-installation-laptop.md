@@ -137,6 +137,13 @@ systemctl enable NetworkManager
 systemctl start NetworkManager
 ```
 
+Set som active NTP servers and activate NTP.
+
+```
+timedatectl set-ntp true
+timedatectl status
+sudo hwclock --systohc
+```
 ## Users and groups
 
 ```
