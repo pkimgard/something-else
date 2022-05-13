@@ -36,4 +36,8 @@ Linux installations;
 - Arch/XFCE on my desktop.
 - Kali virtualbox setup.
 
+## arch-stuff
+
+That had nowhere else to go.
+
 /K
