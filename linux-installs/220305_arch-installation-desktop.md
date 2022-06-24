@@ -178,6 +178,8 @@ Log in, bookmarks always show.
 
 **Atom**
 
+*Atom is discontiuned as of december 2022, started using vscode instead.*
+
 (Change command to `--no-sandbox` if it's not starting.)
 
 Change package spell-check locale to 'en-US'.
@@ -185,6 +187,14 @@ Change package spell-check locale to 'en-US'.
 Install packages: language-markdown, markdown-writer, markdown-img-paste, markdown-preview-plus.
 
 Don't restore on start: Check 'Core - Open Empty Editor On Start' and set 'Core - Restore Previous Windows On Start' to 'no'.
+
+**VS Code**
+
+- Install Paste Image
+
+Name Prefix: paste-img-
+
+Path: assets
 
 **Flameshot**
 

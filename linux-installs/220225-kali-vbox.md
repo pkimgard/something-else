@@ -68,7 +68,9 @@ Change default terminal to terminator and browser to firefox(Settings Manager - 
 
 Open firefox, remove standard bookmarks, log in.
 
-### Atom
+### Atom (RIP)
+
+*Since Atom is discontinued as of december 2022 I will start using VSCode.*
 
 - https://flight-manual.atom.io/getting-started/sections/installing-atom/
 
@@ -98,3 +100,11 @@ Add atom to panel with new launcher, add '--no-sandbox' if not starting.
 ![](assets/markdown-img-paste-20220306082948264.png)
 
 - Take another snapshot
+
+### VSCode
+
+- Install Paste Image
+
+Name Prefix: paste-img-
+
+Path: assets

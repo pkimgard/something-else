@@ -202,10 +202,10 @@ sudo pacman -S pulseaudio pavucontrol
 My main applications
 
 ```
-sudo pacman -S firefox flameshot git caprine discord xclip zsh-syntax-highlighting zsh-autosuggestions atom virtualbox virtualbox-host-modules-arch virtualbox-guest-iso smbclient wget galculator xreader
+sudo pacman -S firefox flameshot git caprine discord xclip zsh-syntax-highlighting zsh-autosuggestions virtualbox virtualbox-host-modules-arch virtualbox-guest-iso smbclient wget galculator xreader code
 ```
 
-Above packages saved in 'resouces/paclist.txt'. Use with `pacman S - < paclist.txt`.
+Above packages saved in 'resouces/pac-aux.txt'. Use with `pacman S - < pac-aux.txt`.
 
 Reboot to load new kernel modules.
 
